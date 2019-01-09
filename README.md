@@ -22,3 +22,11 @@ git commit -m "Initial commit"
 git remote add origin git@github.com:user/project.git
 git push -u origin master
 ```
+
+Other useful commands below:
+To add and edit main remote link for push
+
+```
+git remote -v #list remote URLs
+git remote set-url origin dist://url.git #https|ssh 
+```
